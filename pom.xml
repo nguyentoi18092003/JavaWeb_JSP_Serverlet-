@@ -8,7 +8,7 @@
   	<jsp.api.version>2.0</jsp.api.version>
   	<serverlet.api.version>3.1.0</serverlet.api.version>
   	<jstl.version>1.2</jstl.version>
-  	<sitemesh.version>2.4.2</sitemesh.version>
+  	<sitemesh.version>3.0.1</sitemesh.version>
   	<maven.compiler.source>1.8</maven.compiler.source>
   	<maven.compiler.target>1.8</maven.compiler.target>
   	<failOnMissingWebXml>false</failOnMissingWebXml>
@@ -46,7 +46,8 @@
 		    <version>${jstl.version}</version>
 		</dependency>
 		
-		<!-- https://mvnrepository.com/artifact/org.sitemesh/sitemesh -->
+		<!-- thu vien nay no se dua vao cai url ma no request vao no vao dung template VD neu url bat dau bang admin nos se nhay vao teplete admin 
+		Kiee filter URL, admin-> apply giao dienj admin, apply giao dien web, apply giao dien,neeus tra ve api se khong apply giao dien nao -->
 		<dependency>
 		    <groupId>org.sitemesh</groupId>
 		    <artifactId>sitemesh</artifactId>

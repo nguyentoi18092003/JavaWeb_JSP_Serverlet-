@@ -1,0 +1,14 @@
+<!-- File này dùng thư viện Sitemesh để phân loại từng URL -->
+<decorators defaultdir="/decorators">
+    <excludes><!--  Nếu la api se k apply giao dien vao-->
+        <pattern>/api*</pattern> <!-- Đóng thẻ pattern -->
+    </excludes>
+
+    <decorator name="admin" page="admin.jsp"><!--  Nếu bat dau bang admin se apply giao dien admin giao dien vao-->
+        <pattern>/admin*</pattern>
+    </decorator>
+
+    <decorator name="web" page="web.jsp"><!--  Nếu bat dau bang admin se apply giao dien web giao dien vao-->
+        <pattern>/*</pattern>
+    </decorator>
+</decorators>
